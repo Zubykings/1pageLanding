@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #1660cf;
+}
+
+#root {
+  position: relative;
+  top: 50px;
+  width: 80%;
+  margin: auto;
+  background: #fff;
+  box-shadow: -2px 2px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 2px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 2px 20px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.under-line::after {
+  content: '';
+  width: 50px;
+  height: 3px;
+  border-radius: 100px;
+  display: block;
+  background: #1660cf;
+  margin: auto;
+  
+}
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  border-radius: 100px;
+  display: block;
+  background: #1660cf;
+  margin: auto;
+  transition: 0.5s;;
+}
+
+.nav-link:hover::after{
+  width: 100%;
+  transition: 0.5s;
+}
+
+.hero {
+  background: url(./../public/Images/view.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-blend-mode: overlay;
+  background-color: rgb(72, 107, 173);
+  opacity: 0.9;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+htm {
+  background-color: #1660cf;
+}
+
+button {
+  background: linear-gradient(#ffff 50%, #ffff, #1660cf, #1660cf 50%);
+  background-size: 100% 200%;
+  transition: background 0.3s;
+  /* border-color: #1660cf; */
+}
+.welcome {
+  border: 1px solid #1660cf;
+  padding: 5px 20px;
+}
+
+button:hover {
+  background-position: 100% 100%;
+  color: white;
+}
