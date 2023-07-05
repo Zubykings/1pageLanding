@@ -7,10 +7,10 @@ export default class Hero extends Component {
     return (
       <div className="hero relative shadow-2xl h-[70vh] lg:h-[100vh] ">
         <div class="flex flex-row items-center justify-between absolute inset-0 text-white">
-          <div class="lg:w-20 w-10 rounded-e-full flex flex-row justify-center bg-[#1660cf] opacity-[0.9]">
+          <div class="lg:w-20 w-10 rounded-e-full flex flex-row justify-center bg-[#1660cf] opacity-[0.9] hover:bg-blue-500/100  cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-chevron-left"
+              className="icon icon-tabler icon-tabler-chevron-left"
               width="30"
               height="30"
               viewBox="0 0 24 24"
@@ -37,7 +37,7 @@ export default class Hero extends Component {
             <Button text="GET STARTED" tColor="[#1660cf]" color="white" />
           </div>
 
-          <div class="lg:w-20 w-10 rounded-s-full flex flex-row justify-center bg-[#1660cf] opacity-[0.9]">
+          <div class="lg:w-20 w-10 rounded-s-full flex flex-row justify-center bg-[#1660cf] opacity-[0.9] hover:bg-blue-500/100  cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-chevron-right"

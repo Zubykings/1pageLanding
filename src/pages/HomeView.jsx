@@ -34,7 +34,7 @@ export default class HomeView extends Component {
   }
 
   handleScroll = () => {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 0) {
       this.setState({ isSticky: true });
     } else {
       this.setState({ isSticky: false });
@@ -47,7 +47,7 @@ export default class HomeView extends Component {
       <div class="">
         <div
           className={`${
-            isSticky ? `fixed w-[80%] mx-auto top-0  z-50` : "w-full"
+            isSticky ? `fixed w-full z-50` : "w-full"
           } bg-[#092b5e]`}
         >
           <Navbar />
@@ -72,7 +72,7 @@ export default class HomeView extends Component {
               nulla maxime nostrum.
             </p>
           </div>
-          <div class="flex flex-row flex-wrap items-center justify-center  gap-5">
+          <div class="flex flex-row flex-wrap items-center justify-center w-[90%]  gap-5">
             {servicesData.map((service) => (
               <Services keys={service.id} user={service} />
             ))}
@@ -120,7 +120,7 @@ export default class HomeView extends Component {
             </div>
           </div>
 
-          <div class="flex flex-row flex-wrap items-center justify-center gap-2 md:gap-0  pt-5 pb-10">
+          <div class="flex flex-row flex-wrap items-center justify-center gap-2 md:gap-0 w-[80%] m-auto  pt-5 pb-10">
             {portfolioData.map((portfolio) => (
               <Portfolio key={portfolio.id} user={portfolio} />
             ))}

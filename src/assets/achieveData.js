@@ -20,7 +20,7 @@ export const achieveData = [
     {
         icon:"",
         num:"15",
-        title:"ammo ivdm",
+        title:"award won",
         id:4,
     },
     
