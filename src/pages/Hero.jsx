@@ -3,13 +3,9 @@ import React, { Component } from "react";
 import Button from "../component/Button";
 
 export default class Hero extends Component {
-  
   render() {
-
     return (
-      <div className="hero relative shadow-2xl ">
-        
-
+      <div className="hero relative shadow-2xl h-[70vh] lg:h-[100vh] ">
         <div class="flex flex-row items-center justify-between absolute inset-0 text-white">
           <div class="lg:w-20 w-10 rounded-e-full flex flex-row justify-center bg-[#1660cf] opacity-[0.9]">
             <svg
@@ -35,9 +31,7 @@ export default class Hero extends Component {
             </h1>
             <p class="leading-4 md:leading-5 text-sm lg:text-md">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum ullam eius perspiciatis magnam aut nulla vitae corrupti
-              recusandae minima odio possimus, molestias ut suscipit provident.
-              Molestias, quibusdam quam. Repellat, mollitia.
+              Voluptatum ullam eius perspiciatis.
             </p>
 
             <Button text="GET STARTED" tColor="[#1660cf]" color="white" />

@@ -47,9 +47,7 @@ export default class HomeView extends Component {
       <div class="">
         <div
           className={`${
-            isSticky
-              ? `fixed w-[80%] mx-auto top-0 right-[49px] left-[49px]  z-50`
-              : "w-full"
+            isSticky ? `fixed w-[80%] mx-auto top-0  z-50` : "w-full"
           } bg-[#092b5e]`}
         >
           <Navbar />

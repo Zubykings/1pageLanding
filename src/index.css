@@ -23,31 +23,30 @@ body {
 }
 
 .under-line::after {
-  content: '';
+  content: "";
   width: 50px;
   height: 3px;
   border-radius: 100px;
   display: block;
   background: #1660cf;
   margin: auto;
-  
 }
 .nav-link {
   cursor: pointer;
 }
 
 .nav-link::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
   border-radius: 100px;
   display: block;
   background: #1660cf;
   margin: auto;
-  transition: 0.5s;;
+  transition: 0.5s;
 }
 
-.nav-link:hover::after{
+.nav-link:hover::after {
   width: 100%;
   transition: 0.5s;
 }
@@ -55,7 +54,7 @@ body {
 .hero {
   background: url(https://images.unsplash.com/photo-1517518295033-d5ab8ca078cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80);
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   background-blend-mode: overlay;
   background-color: rgb(72, 107, 173);
   opacity: 0.9;
@@ -82,5 +81,3 @@ button:hover {
   background-position: 100% 100%;
   color: white;
 }
-
-
