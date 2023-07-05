@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Achieve extends Component {
   render() {
     const { icon, title, num } = this.props.user;
-    console.log(this.props.user);
+    // console.log(this.props.user);
 
     return (
       <div className={`md:w-[270px] h-[250px] w-[80%] text-white bg-[#1660cf] p-5`}>
