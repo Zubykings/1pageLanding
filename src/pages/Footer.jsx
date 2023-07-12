@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Footer extends Component {
   render() {
     return (
-      <div className="relative h-auto  w-full bg-[#1660cf] text-white overflow-hidden flex flex-col items-center">
+      <div className="relative h-auto pt-7 w-full bg-[#1660cf] text-white overflow-hidden flex flex-col items-center">
         <div className="flex flex-row gap-3 w-[50%] justify-center px-5 m-auto  bottom-0 ">
           <img
             className="lg:w-[200px] w-[150px] h-[100px]  lg:h-[150px] rounded-ss-[60px] object-cover border-4 border-gray-500/50 shadow-2xl"
