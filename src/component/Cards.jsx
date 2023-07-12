@@ -7,7 +7,7 @@ export default class Cards extends Component {
 // console.log(this.props.user);
     // console.log(icon);
     return (
-      <div className={`md:w-[360px] md:h-[350px] bg-${color} w-[90%] md:w-[80%] h-[300px] `}>
+      <div className={` md:h-[350px] bg-${color} w-[90%] md:w-[33.5%] h-[300px] `}>
         <div className="text-white flex flex-col gap-5  text-center items-center justify-center md:py-5 md:px-4  p-3">
         <div className="border-2 rounded-full md:h-[50px] md:w-[50px] h-[40px] w-[40px]">
           {icon}
@@ -15,7 +15,7 @@ export default class Cards extends Component {
         <h2 className="md:text-3xl lg:text-2xl font-bold text-md ">
           {title}
         </h2>
-        <p className="text-sm md:text-xl lg:text-sm">
+        <p className="text-sm">
           {description}
         </p>
       </div>

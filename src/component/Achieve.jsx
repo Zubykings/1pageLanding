@@ -6,7 +6,7 @@ export default class Achieve extends Component {
     // console.log(this.props.user);
 
     return (
-      <div className={`lg:w-[100%] md:w-[48%] h-[250px] w-[80%] text-white bg-[#1660cf] p-5`}>
+      <div className={`lg:w-[100%] md:w-[25%] h-[250px] w-[80%] text-white bg-[#1660cf] p-5`}>
         <div class="uppercase flex flex-col gap-5 p-5 items-center justify-center text-center ">
           <div class="border-2 border-white w-[50px] h-[50px] rounded-full">
             {icon}

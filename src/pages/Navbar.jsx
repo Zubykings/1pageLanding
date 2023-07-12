@@ -59,6 +59,8 @@ export default class Navbar extends Component {
                 </a>
               </div>
             </div>
+
+
             <div className="-mr-2 flex sm:hidden">
               <button
                 type="button"

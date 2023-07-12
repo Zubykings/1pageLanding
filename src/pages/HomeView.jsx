@@ -55,7 +55,7 @@ export default class HomeView extends Component {
         <Hero />
         <Welcome />
 
-        <div class="flex flex-col lg:flex-row justify-center items-center pb-10 w-full ">
+        <div class="flex flex-col md:flex-row justify-center items-center pb-10 w-full ">
           {cardData.map((card) => (
             <Cards key={card.id} user={card} />
           ))}
@@ -79,7 +79,7 @@ export default class HomeView extends Component {
           </div>
         </div>
 
-        <div class="flex flex-col pb-10 md:flex-row flex-wrap lg:flex-nowrap  gap-3 lg:gap-0 justify-center items-center w-full ">
+        <div class="flex flex-col pb-10 md:flex-row flex-wrap md:flex-nowrap  gap-3 md:gap-0 lg:gap-0 justify-center items-center w-full ">
           {achieveData.map((achieve) => (
             <Achieve key={achieve} user={achieve} />
           ))}
@@ -127,7 +127,7 @@ export default class HomeView extends Component {
           </div>
         </div>
 
-        <div>
+        <div className="">
           <Footer />
         </div>
       </div>
